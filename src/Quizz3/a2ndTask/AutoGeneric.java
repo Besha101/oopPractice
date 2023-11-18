@@ -1,4 +1,4 @@
-package a2ndTask;
+package Quizz3.a2ndTask;
 
 public class AutoGeneric <car> extends Auto{
 

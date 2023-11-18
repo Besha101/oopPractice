@@ -1,4 +1,4 @@
-package a4thTask;
+package Quizz3.a4thTask;
 
 public class Main {
 

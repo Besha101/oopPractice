@@ -1,4 +1,4 @@
-package a1stTask;
+package Quizz3.a1stTask;
 
 public class Main {
     public static void main(String[] args) {

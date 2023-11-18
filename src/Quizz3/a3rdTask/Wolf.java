@@ -1,4 +1,4 @@
-package a3rdTask;
+package Quizz3.a3rdTask;
 
 public class Wolf implements AnimalInterface{
 
