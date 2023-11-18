@@ -8,11 +8,11 @@ import java.sql.Statement;
 public class JDBCDemo {
 
     public static void main(String[] args) {
-        String url="jdbc:mysql://localhost:3306/jdbcdemo";
+        String url="jdbc:mysql://localhost:3306/jdbc";
         String username="root";
         String password="";
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            
 
             Connection connection= DriverManager.getConnection(url,username,password);
 
