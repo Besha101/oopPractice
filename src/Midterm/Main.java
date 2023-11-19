@@ -1,2 +1,4 @@
-package Midterm;public class Main {
+package Midterm;
+
+public class Main {
 }
