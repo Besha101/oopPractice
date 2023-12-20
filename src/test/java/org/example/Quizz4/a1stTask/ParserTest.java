@@ -1,4 +1,4 @@
-package org.example.Quizz4;
+package org.example.Quizz4.a1stTask;
 
 import org.junit.jupiter.api.Test;
 
@@ -11,38 +11,26 @@ import static org.junit.jupiter.api.Assertions.*;
 class ParserTest {
 
     @Test
-    public void testMainMethod() throws MySystemException {
+    public void test() throws MySystemException{
 
-
-
-        assertEquals(4,countLines());
-
-
-
-
-
-
+        assertEquals(2,countLines());
 
     }
 
-
-
     private int countLines(){
+        int count=0;
 
-        int lineCount=0;
-
-        try(BufferedReader bufferedReader=new BufferedReader(new FileReader("data.txt"))){
+        try(BufferedReader bufferedReader=new BufferedReader(new FileReader("data1.txt"))){
             while(bufferedReader.readLine()!=null){
-                lineCount++;
+                count++;
             }
         }
 
-        catch(IOException e){
+        catch (IOException e){
             e.printStackTrace();
         }
 
-        return lineCount;
-
+        return count;
     }
 
 }

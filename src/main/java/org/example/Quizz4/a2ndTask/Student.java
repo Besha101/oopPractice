@@ -1,4 +1,4 @@
-package org.example.Quizz4;
+package org.example.Quizz4.a2ndTask;
 
 public class Student {
 

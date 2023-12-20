@@ -1,4 +1,4 @@
-package org.example.Quizz4;
+package org.example.Quizz4.a2ndTask;
 
 import java.io.FileWriter;
 import java.io.IOException;

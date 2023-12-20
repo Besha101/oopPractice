@@ -1,4 +1,4 @@
-package org.example.Quizz4;
+package org.example.Quizz4.a1stTask;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
